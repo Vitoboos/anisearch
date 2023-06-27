@@ -2,20 +2,13 @@ import Main from './views/Main';
 import { Routes, Route } from 'react-router-dom';
 
 import AnimeDetails from './components/animedetails/AnimeDetails';
-
 import Tags from './views/Tags';
 import Results from './components/genres/Results';
-
 import Producers from './views/Producers'
 import Studio from './components/animedetails/StudioDetails'
-
-
 import Seasons from './views/Seasons';
 import SeasonResults from './components/seasons/SeasonResults';
-
 import Watchlist from './views/Watchlist'
-
-
 import Searchbar from './components/searchbar/Searchbar';
 
 
@@ -28,7 +21,7 @@ function App() {
     <div className="App">
 
         <Routes>
-          <Route path='/' element={<Main/>}> </Route>
+          <Route path='anisearch/' element={<Main/>}> </Route>
           <Route path='/anime' element={<AnimeDetails/>}> </Route>
           <Route path='/tags' element={<Tags/>}> </Route>
             <Route path='/tags/results' element={<Results/>}> </Route>
