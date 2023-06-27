@@ -21,7 +21,7 @@ function App() {
     <div className="App">
 
         <Routes>
-          <Route path='anisearch/' element={<Main/>}> </Route>
+          <Route path='/anisearch' element={<Main/>}> </Route>
           <Route path='/anime' element={<AnimeDetails/>}> </Route>
           <Route path='/tags' element={<Tags/>}> </Route>
             <Route path='/tags/results' element={<Results/>}> </Route>
