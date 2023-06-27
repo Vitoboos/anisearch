@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anisearch/static/css/main.8c9257c2.css",
+    "main.js": "/anisearch/static/js/main.9213d079.js",
+    "static/js/787.1f7a977d.chunk.js": "/anisearch/static/js/787.1f7a977d.chunk.js",
+    "index.html": "/anisearch/index.html",
+    "main.8c9257c2.css.map": "/anisearch/static/css/main.8c9257c2.css.map",
+    "main.9213d079.js.map": "/anisearch/static/js/main.9213d079.js.map",
+    "787.1f7a977d.chunk.js.map": "/anisearch/static/js/787.1f7a977d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c9257c2.css",
+    "static/js/main.9213d079.js"
+  ]
+}
