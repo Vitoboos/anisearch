@@ -1,0 +1,5 @@
+.tab:hover{
+    cursor: pointer;
+    background-color: #1A1A1A;
+    color: white;
+}
