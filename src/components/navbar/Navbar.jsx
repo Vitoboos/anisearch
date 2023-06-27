@@ -5,7 +5,8 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
+
 
 function Navigation() {
 
@@ -39,7 +40,7 @@ function Navigation() {
 return (
     <Navbar bg="light" expand="lg">
         <Container fluid>
-            <Navbar.Brand onClick={toHome} style={{cursor: 'pointer'}}> AniSearch </Navbar.Brand>
+            <Navbar.Brand style={{cursor: 'pointer'}}>  <Link to={"/anisearch"} style={{color:'black'}}> AniSearch </Link> </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
 
