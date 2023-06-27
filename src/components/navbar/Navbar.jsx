@@ -13,7 +13,7 @@ function Navigation() {
     const input = useRef()
 
     function toHome(){
-        navigate("/anisearch")
+        navigate("anisearch/")
     }
 
     function toTags(){
